@@ -3,6 +3,8 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using SeleniumCSharpNetCore.Pages;
 using System;
+using WebDriverManager;
+using WebDriverManager.DriverConfigs.Impl;
 
 namespace SeleniumCSharpNetCore
 {
@@ -12,6 +14,7 @@ namespace SeleniumCSharpNetCore
         [SetUp]
         public void Setup()
         {
+            new DriverManager().SetUpDriver(new ChromeConfig());
             Console.WriteLine("Setup");
             Driver = new ChromeDriver();
         }
