@@ -5,6 +5,8 @@ using SeleniumCSharpNetCore.Pages;
 using System;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
+using System.IO;
+using System.Reflection;
 
 namespace SeleniumCSharpNetCore
 {
@@ -14,11 +16,11 @@ namespace SeleniumCSharpNetCore
         [SetUp]
         public void Setup()
         {
-            ChromeOptions options = new ChromeOptions();
-            options.addArgument("--headless");
+            ChromeOptions option = new ChromeOptions();
+            option.AddArguments("--headless");
             new DriverManager().SetUpDriver(new ChromeConfig());
             Console.WriteLine("Setup");
-            Driver = new ChromeDriver(options);
+            Driver = new ChromeDriver(option);
         }
 
         [Test]
