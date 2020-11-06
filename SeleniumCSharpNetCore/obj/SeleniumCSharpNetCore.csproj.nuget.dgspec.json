@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karth\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
+    "C:\\Users\\karth\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karth\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
+    "C:\\Users\\karth\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karth\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\karth\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
         "projectName": "SeleniumCSharpNetCore",
-        "projectPath": "C:\\Users\\karth\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "projectPath": "C:\\Users\\karth\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
         "packagesPath": "C:\\Users\\karth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karth\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\obj\\",
+        "outputPath": "C:\\Users\\karth\\Documents\\GitHub\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,13 +45,45 @@
               "target": "Package",
               "version": "[16.4.0, )"
             },
+            "NUnit.Console": {
+              "target": "Package",
+              "version": "[3.11.1, )"
+            },
+            "NUnit.ConsoleRunner": {
+              "target": "Package",
+              "version": "[3.11.1, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.15.1, )"
             },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[3.141.0, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.4.31, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.4.31, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.4.31, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.11.0, )"
             },
             "nunit": {
               "target": "Package",

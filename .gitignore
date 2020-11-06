@@ -5,3 +5,17 @@
 /.vs/SeleniumCSharpNetCore/v16/TestStore/0
 /.vs/SeleniumCSharpNetCore
 /SeleniumCSharpNetCore/bin/Debug/netcoreapp3.1
+SeleniumCSharpNetCore/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp
+SeleniumCSharpNetCore/bin/Debug/netcoreapp3.1/SeleniumCSharpNetCore.deps.json
+SeleniumCSharpNetCore/bin/Debug/netcoreapp3.1/SeleniumCSharpNetCore.dll
+SeleniumCSharpNetCore/bin/Debug/netcoreapp3.1/SeleniumCSharpNetCore.pdb
+SeleniumCSharpNetCore/obj/Debug/netcoreapp3.1/SeleniumCSharpNetCore.assets.cache
+SeleniumCSharpNetCore/obj/Debug/netcoreapp3.1/SeleniumCSharpNetCore.csproj.CoreCompileInputs.cache
+SeleniumCSharpNetCore/obj/Debug/netcoreapp3.1/SeleniumCSharpNetCore.csproj.FileListAbsolute.txt
+SeleniumCSharpNetCore/obj/Debug/netcoreapp3.1/SeleniumCSharpNetCore.dll
+SeleniumCSharpNetCore/obj/Debug/netcoreapp3.1/SeleniumCSharpNetCore.pdb
+SeleniumCSharpNetCore/obj/project.assets.json
+SeleniumCSharpNetCore/obj/project.nuget.cache
+SeleniumCSharpNetCore/obj/SeleniumCSharpNetCore.csproj.nuget.dgspec.json
+SeleniumCSharpNetCore/obj/SeleniumCSharpNetCore.csproj.nuget.g.props
+SeleniumCSharpNetCore/obj/SeleniumCSharpNetCore.csproj.nuget.g.targets

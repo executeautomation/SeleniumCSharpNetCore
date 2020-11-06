@@ -13,13 +13,22 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3TestAdapter.props')" />
+    <Import Project="$(NuGetPackageRoot)specflow.tools.msbuild.generation\3.4.31\build\SpecFlow.Tools.MsBuild.Generation.props" Condition="Exists('$(NuGetPackageRoot)specflow.tools.msbuild.generation\3.4.31\build\SpecFlow.Tools.MsBuild.Generation.props')" />
     <Import Project="$(NuGetPackageRoot)nunit\3.12.0\build\NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit\3.12.0\build\NUnit.props')" />
+    <Import Project="$(NuGetPackageRoot)specflow.nunit\3.4.31\build\SpecFlow.NUnit.props" Condition="Exists('$(NuGetPackageRoot)specflow.nunit\3.4.31\build\SpecFlow.NUnit.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3TestAdapter.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\Microsoft.TestPlatform.TestHost.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\Microsoft.TestPlatform.TestHost.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.codecoverage\16.4.0\build\netstandard1.0\Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage\16.4.0\build\netstandard1.0\Microsoft.CodeCoverage.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">C:\Users\karth\.nuget\packages\bodi\1.4.1</PkgBoDi>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\karth\.nuget\packages\newtonsoft.json\10.0.3</PkgNewtonsoft_Json>
+    <PkgNUnit_Extension_VSProjectLoader Condition=" '$(PkgNUnit_Extension_VSProjectLoader)' == '' ">C:\Users\karth\.nuget\packages\nunit.extension.vsprojectloader\3.8.0</PkgNUnit_Extension_VSProjectLoader>
+    <PkgNUnit_Extension_TeamCityEventListener Condition=" '$(PkgNUnit_Extension_TeamCityEventListener)' == '' ">C:\Users\karth\.nuget\packages\nunit.extension.teamcityeventlistener\1.0.7</PkgNUnit_Extension_TeamCityEventListener>
+    <PkgNUnit_Extension_NUnitV2ResultWriter Condition=" '$(PkgNUnit_Extension_NUnitV2ResultWriter)' == '' ">C:\Users\karth\.nuget\packages\nunit.extension.nunitv2resultwriter\3.6.0</PkgNUnit_Extension_NUnitV2ResultWriter>
+    <PkgNUnit_Extension_NUnitV2Driver Condition=" '$(PkgNUnit_Extension_NUnitV2Driver)' == '' ">C:\Users\karth\.nuget\packages\nunit.extension.nunitv2driver\3.8.0</PkgNUnit_Extension_NUnitV2Driver>
+    <PkgNUnit_Extension_NUnitProjectLoader Condition=" '$(PkgNUnit_Extension_NUnitProjectLoader)' == '' ">C:\Users\karth\.nuget\packages\nunit.extension.nunitprojectloader\3.6.0</PkgNUnit_Extension_NUnitProjectLoader>
+    <PkgNUnit_ConsoleRunner Condition=" '$(PkgNUnit_ConsoleRunner)' == '' ">C:\Users\karth\.nuget\packages\nunit.consolerunner\3.11.1</PkgNUnit_ConsoleRunner>
   </PropertyGroup>
 </Project>
