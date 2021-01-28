@@ -7,6 +7,6 @@ namespace SeleniumCSharpNetCore
 {
     public class DriverHelper
     {
-        public static IWebDriver Driver { get; set; }
+        public IWebDriver Driver { get; set; }
     }
 }
